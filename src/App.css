@@ -36,3 +36,15 @@
     transform: rotate(360deg);
   }
 }
+
+.App-ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333333;
+}
+
+.App-div {
+  max-width: 80%;
+}
