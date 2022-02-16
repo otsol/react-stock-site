@@ -126,8 +126,8 @@ export function StockChart() {
             <div>
                 <select value={stock} onChange={event => setStock(event.target.value)}>
                   <option value="MCD">McDonalds</option>
-                  <option value="AAPL">Apple</option>
-                  <option value="VTI">Vanguard Total ... (VTI)</option>
+                  {/* <option value="AAPL">Apple</option> */}
+                  {/* <option value="VTI">Vanguard Total ... (VTI)</option> */}
                 </select>
                 <input type='date' value={dateBegin} min='1984-11-05' max='2022-02-14'
                     onChange={event => {
