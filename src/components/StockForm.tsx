@@ -12,7 +12,7 @@ function StockForm() {
                 </p>
                 <p className='App-div'>
                     Note: this website uses a free API key for https://eodhistoricaldata.com/ on my own server. This means that the api has a limited
-                    number of requests. Not the best solution. (:|)
+                    number of requests (but still quite many).
                 </p>
                 <NameForm />
           </header>
