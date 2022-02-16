@@ -1,4 +1,5 @@
 import '../App.css'
+import logo from '../logo.svg';
 //import React from "react"; 
 
 
@@ -11,7 +12,7 @@ function About() {
             This website shows stock information from eodhistoricaldata.com, which is made by Unicorn Data Services.
             The website uses only free/demo API keys.
 
-            Backend was made with Kotlin Ktor library and frontend with TypesScript and React.
+            Backend was made with Kotlin Ktor library and frontend with TypeScript and React.
             Plots are made with react-chartjs-2 library, which supports TypeScript type definitions.
           </div>
           <h2>
@@ -25,8 +26,8 @@ function About() {
 
 
           </div>
-          <div className="App-link">
-          <a
+          <div >
+          <a className="App-link"
           
           href="https://reactjs.org"
           target="_blank"
@@ -35,6 +36,17 @@ function About() {
             https://www.linkedin.com/in/otsoluukkanen/
           </a>
           </div>
+          <div>
+          <a className="App-link"
+          
+          href="https://reactjs.org"
+          target="_blank"
+          rel="noopener noreferrer"
+          >
+            https://github.com/otsol/react-stock-site
+          </a>
+          </div>
+          <img src={logo} className="App-logo" alt="logo" />
         </header>
         
         
