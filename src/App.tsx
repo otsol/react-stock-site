@@ -16,10 +16,10 @@ function App() {
     <Router>
       <Routes>
         <Route path="/" element={<Layout />}>
-          <Route index element={<ReactPage />} />
-          <Route path='about' element={<About />} />
+          <Route index element={<About />} />
           <Route path='stock_chart' element={<StockChart />} />
           <Route path='stock_search' element={<StockForm />} />
+          <Route path='react' element={<ReactPage />} />
         </Route>
         
       </Routes>

@@ -7,12 +7,12 @@ function StockForm() {
       <div>
           <header className="App-header">
                 <h2>Stock information</h2>
-                <p className='App-div'>You can search recent information about US market stocks by typing an abbrevation of a name.
-                    Example: type GOOGL (Alphabet Inc. Class A), NFLX (Netlix, Inc.) or WMT (Wal-Mart Stores, Inc.).
+                <p className='App-div'>You can search recent information about US market stocks by typing an abbreviation of a name.
+                    Example: type GOOGL (Alphabet Inc. Class A), NFLX (Netlfix, Inc.) or WMT (Wal-Mart Stores, Inc.).
                 </p>
                 <p className='App-div'>
                     Note: this website uses a free API key for https://eodhistoricaldata.com/ on my own server. This means that the api has a limited
-                    amount of requests. Not the best solution. (:|)
+                    number of requests. Not the best solution. (:|)
                 </p>
                 <NameForm />
           </header>
