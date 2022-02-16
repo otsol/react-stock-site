@@ -38,11 +38,60 @@
 }
 
 .App-ul {
+  height: 70%;
   list-style-type: none;
   margin: 0;
   padding: 0;
   overflow: hidden;
   background-color: #333333;
+  display: flex;
+  flex-direction: column;
+}
+
+.App-list {
+
+  list-style: none;
+
+}
+
+.navbar {
+  width: 140%;
+  background-color: #555;
+  overflow: auto;
+}
+
+
+.navbar span {
+  float: left;
+  padding: 4px 1px;
+  color: white;
+
+
+  text-decoration: none;
+  font-size: 17px;
+  width: 15%; 
+  text-align: center; /* If you want the text to be centered */
+}
+
+/* Add a background color on mouse-over */
+.navbar span:hover {
+  background-color: #000;
+}
+
+/* Style the current/active link */
+.navbar span.active {
+  width: 20%;
+  background-color: #04AA6D;
+}
+
+/* Add responsiveness - on screens less than 300px, make the navigation links appear on top of each other, instead of next to each other */
+@media screen and (max-width: 300px) {
+  .navbar span {
+    float: none;
+    display: block;
+    width: 100%;
+    text-align: left; /* If you want the text to be left-aligned on small screens */
+  }
 }
 
 .App-div {

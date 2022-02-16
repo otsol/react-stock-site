@@ -6,10 +6,8 @@ import About from './components/About';
 import {
   BrowserRouter as Router,
   Routes,
-  Link,
   Route
 } from "react-router-dom";
-import NameForm from './components/StockForm';
 import StockForm from './components/StockForm';
 import { StockChart } from './components/StockChart';
 
@@ -31,6 +29,7 @@ function App() {
 
 
 function ReactPage() {
+  console.log(process.env);
   return (
     <div className="App">
       <header className="App-header">

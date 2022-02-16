@@ -1,7 +1,6 @@
 import '../App.css'
-import { Outlet, Link } from "react-router-dom"
-import React from "react"; 
-import NameForm from "./StockForm";
+//import React from "react"; 
+
 
 function About() {
     return(
