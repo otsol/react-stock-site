@@ -29,17 +29,17 @@ function About() {
           <div >
           <a className="App-link"
           
-          href="https://reactjs.org"
+          href="https://www.linkedin.com/in/otsoluukkanen/"
           target="_blank"
           rel="noopener noreferrer"
           >
-            https://www.linkedin.com/in/otsoluukkanen/
+            LinkedIn
           </a>
           </div>
           <div>
           <a className="App-link"
           
-          href="https://reactjs.org"
+          href="https://github.com/otsol/react-stock-site"
           target="_blank"
           rel="noopener noreferrer"
           >
