@@ -19,34 +19,37 @@ function About() {
             Contact
           </h2>
           <div>
-            Mady by Otso Luukkanen
+             Made by
           </div>
           <div>
-            February 2022
+             Otso Luukkanen
+          </div>
+          <p>          
+              <div>
+                February 2022
+              </div>
+              <div >
+              <a className="App-link"
+              
+              href="https://www.linkedin.com/in/otsoluukkanen/"
+              target="_blank"
+              rel="noopener noreferrer"
+              >
+                LinkedIn
+              </a>
+              </div>
+              <div>
+              <a className="App-link"
+                href="https://github.com/otsol/react-stock-site"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                https://github.com/otsol/react-stock-site
+              </a>
+              </div>
+              <img src={logo} className="App-logo" alt="logo" />
+          </p>
 
-
-          </div>
-          <div >
-          <a className="App-link"
-          
-          href="https://www.linkedin.com/in/otsoluukkanen/"
-          target="_blank"
-          rel="noopener noreferrer"
-          >
-            LinkedIn
-          </a>
-          </div>
-          <div>
-          <a className="App-link"
-          
-          href="https://github.com/otsol/react-stock-site"
-          target="_blank"
-          rel="noopener noreferrer"
-          >
-            https://github.com/otsol/react-stock-site
-          </a>
-          </div>
-          <img src={logo} className="App-logo" alt="logo" />
         </header>
         
         
